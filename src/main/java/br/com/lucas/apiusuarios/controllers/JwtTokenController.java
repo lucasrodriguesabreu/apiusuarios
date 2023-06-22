@@ -1,4 +1,4 @@
-/*
+
 package br.com.lucas.apiusuarios.controllers;
 
 import java.time.Instant;
@@ -45,4 +45,4 @@ public class JwtTokenController {
     }
 
 }
-*/
+
