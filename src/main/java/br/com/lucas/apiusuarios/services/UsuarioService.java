@@ -26,4 +26,8 @@ public class UsuarioService {
     public Usuario salvarUsuario(Usuario usuario) {
         return repository.save(usuario);
     }
+
+    public Usuario buscarUsuarioBanco(String nome) {
+        return repository.findByNome(nome);
+    }
 }
